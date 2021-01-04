@@ -15,6 +15,10 @@ void subtract()
 {
     TEST_ASSERT_EQUAL(3, sub(5,2));
 }
+void multi()
+{
+    TEST_ASSERT_EQUAL(10, multiply(5,2));
+}
 
 
 int main()
@@ -24,6 +28,7 @@ int main()
     /* Run Test functions */
     RUN_TEST(sum);
     RUN_TEST(subtract);
+    RUN_TEST(multi);
 
     return UNITY_END();
 }
