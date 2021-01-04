@@ -27,11 +27,11 @@ void subtract()
 }
 void multi()
 {
-    TEST_ASSERT_EQUAL(10, multiply(5,2));
+    TEST_ASSERT_EQUAL(42250000, multiply(6500,6500));
 }
 void div()
 {
-    TEST_ASSERT_EQUAL(5, division(10,2));
+    TEST_ASSERT_EQUAL(5.0, division(10.0,2.0));
 }
 
 

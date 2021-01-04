@@ -9,11 +9,11 @@ int sub(int a, int b)
 {
 	return a-b;
 }
-int multiply(int a, int b)
+long int multiply(long int a, long int b)
 {
 	return a*b;
 }
-int division(int a, int b)
+double division(double a, double b)
 {
 	if(b==0)
 	{
