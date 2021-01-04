@@ -11,6 +11,16 @@ void sum()
 {
     TEST_ASSERT_EQUAL(3, add(1,2));
 }
+
+void sum1()
+{
+    TEST_ASSERT_EQUAL(-3, add(-1,-2));
+}
+void sum2()
+{
+    TEST_ASSERT_EQUAL(1, add(-1,+2));
+}
+
 void subtract()
 {
     TEST_ASSERT_EQUAL(3, sub(5,2));
@@ -32,6 +42,8 @@ int main()
     UNITY_BEGIN();
     /* Run Test functions */
     RUN_TEST(sum);
+    RUN_TEST(sum1);
+    RUN_TEST(sum2);
     RUN_TEST(subtract);
     RUN_TEST(multi);
     RUN_TEST(div);
