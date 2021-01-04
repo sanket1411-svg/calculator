@@ -19,6 +19,11 @@ void multi()
 {
     TEST_ASSERT_EQUAL(10, multiply(5,2));
 }
+void div()
+{
+    TEST_ASSERT_EQUAL(5, division(10,2));
+}
+
 
 
 int main()
@@ -29,6 +34,8 @@ int main()
     RUN_TEST(sum);
     RUN_TEST(subtract);
     RUN_TEST(multi);
+    RUN_TEST(div);
+    
 
     return UNITY_END();
 }
