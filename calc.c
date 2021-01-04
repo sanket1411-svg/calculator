@@ -24,3 +24,11 @@ double division(double a, double b)
 		return a/b;
 	}
 }
+long int square(long int a)
+{
+	return a*a;
+}
+long int cube(long int a)
+{
+	return a*a*a;
+}

@@ -25,6 +25,10 @@ void subtract()
 {
     TEST_ASSERT_EQUAL(3, sub(5,2));
 }
+void subtract1()
+{
+    TEST_ASSERT_EQUAL(-3, sub(-5,-2));
+}
 void multi()
 {
     TEST_ASSERT_EQUAL(42250000, multiply(6500,6500));
@@ -32,6 +36,22 @@ void multi()
 void div()
 {
     TEST_ASSERT_EQUAL(5.0, division(10.0,2.0));
+}
+void sq()
+{
+    TEST_ASSERT_EQUAL(16, square(4));
+}
+void sq1()
+{
+    TEST_ASSERT_EQUAL(16, square(-4));
+}
+void cu()
+{
+    TEST_ASSERT_EQUAL(64, cube(4));
+}
+void cu1()
+{
+    TEST_ASSERT_EQUAL(-64, cube(-4));
 }
 
 
@@ -45,9 +65,13 @@ int main()
     RUN_TEST(sum1);
     RUN_TEST(sum2);
     RUN_TEST(subtract);
+    RUN_TEST(subtract1);
     RUN_TEST(multi);
     RUN_TEST(div);
-    
+    RUN_TEST(sq);
+    RUN_TEST(sq1);
+    RUN_TEST(cu);
+    RUN_TEST(cu1);
 
     return UNITY_END();
 }
