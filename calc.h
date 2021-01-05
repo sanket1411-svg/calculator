@@ -9,4 +9,6 @@ long int multiply(long int a, long int b);
 double division(double a, double b);
 long int square(long int a);
 long int cube(long int a);
+float cube_root(double a);
+float square_root(double a);
 #endif
