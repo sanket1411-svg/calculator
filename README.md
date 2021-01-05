@@ -5,5 +5,5 @@
 ![Unit testing](https://github.com/sanket1411-svg/calculator/workflows/Unit%20testing/badge.svg)
 ![Valgrind](https://github.com/sanket1411-svg/calculator/workflows/Valgrind/badge.svg)
 
-added contributor
+added contributor 1
 added badges
