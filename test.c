@@ -58,18 +58,11 @@ void cube_rt()
 {
     TEST_ASSERT_EQUAL(4, cube_root(64));
 }
-void cube_rt_1()
-{
-    TEST_ASSERT_EQUAL(4, cube_root(-64));
-}
 void sq_rt()
 {
     TEST_ASSERT_EQUAL(4, square_root(16));
 }
-void sq_rt1()
-{
-    TEST_ASSERT_EQUAL(-4, square_root(16));
-}
+
 
 
 int main()
@@ -89,9 +82,8 @@ int main()
     RUN_TEST(cu);
     RUN_TEST(cu1);
     RUN_TEST(cube_rt);
-    RUN_TEST(cube_rt_1);
     RUN_TEST(sq_rt);
-    RUN_TEST(sq_rt1);
+    
 
     return UNITY_END();
 }
