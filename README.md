@@ -6,3 +6,4 @@
 ![Valgrind](https://github.com/sanket1411-svg/calculator/workflows/Valgrind/badge.svg)
 
 added contributor
+added badges
