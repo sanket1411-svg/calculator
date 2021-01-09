@@ -17,4 +17,4 @@ jobs:
     - name: make test
       run: |
         make run -C 3_Implementation/
-        valgrind ./all.out
+        valgrind 3_Implementation/all.out
