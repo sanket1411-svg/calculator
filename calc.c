@@ -29,7 +29,6 @@ long int cube(long int a)
 {
 	return a*a*a;
 }
-
 float cube_root(double a)
 {
    float i, precision = 0.000001;
@@ -38,6 +37,7 @@ float cube_root(double a)
    return i;
 
 }
+
 float square_root(double a)
 {
 	double sqrt = a / 2;
